@@ -1,0 +1,26 @@
+{
+  "ls": {
+    "value": "dir $*",
+    "disable": false
+  },
+  "mv": {
+    "value": "move $*",
+    "disable": false
+  },
+  "cp": {
+    "value": "copy $*",
+    "disable": false
+  },
+  "cat": {
+    "value": "type $*",
+    "disable": false
+  },
+  "sb": {
+    "value": "\"C:\\Program Files\\Sublime Text 2\\sublime_text.exe\" $*",
+    "disable": false
+  },
+  "ws": {
+    "value": "\"D:\\JetBrains\\WebStorm 2017.2.1\\bin\\webstorm64.exe\" $*",
+    "disable": false
+  }
+}
