@@ -1,6 +1,6 @@
 {
-  "name": "node-doskey",
-  "version": "0.0.1",
+  "name": "doskey",
+  "version": "0.0.2",
   "description": "A tool helps to create macro shortcuts in Windows cmd.",
   "main": "index.js",
   "bin": {

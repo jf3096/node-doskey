@@ -41,9 +41,9 @@
 
 ### dk add <key> <value> [disable]
 自定义添加doskey，如：<br />
-`dk add ws webstorm $*`
-`dk add ws "D:\JetBrains\WebStorm 2017.2.1\bin\webstorm64.exe"` **experiment**
-`dk add sb "C:\Program Files\Sublime Text 2\sublime_text.exe"` 
+`dk add ws webstorm $*`<br />
+`dk add ws "D:\JetBrains\WebStorm 2017.2.1\bin\webstorm64.exe"` **experiment**<br />
+`dk add sb "C:\Program Files\Sublime Text 2\sublime_text.exe"` <br />
 
 常用场景，需要通过 `git clone` 某项目，
 ```shell
@@ -64,7 +64,7 @@
 使用系统默认 `json` 编辑器打开配置文件，批量修改。 <实验阶段, 慎用>
 
 ### dk activate
-在做任何修改后，请使用 `dk activate` 命令使其生效，该命令会把配置文件修改并保存，
+**在做任何修改后，请使用 `dk activate` 命令使其生效**，该命令会把配置文件修改并保存，
 同时添加到注册表中，所以需要系统权限。
 
 ## License
