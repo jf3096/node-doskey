@@ -42,8 +42,8 @@
 ### dk add <key> <value> [disable]
 自定义添加doskey，如：<br />
 `dk add ws webstorm $*`<br />
-`dk add ws "D:\JetBrains\WebStorm 2017.2.1\bin\webstorm64.exe"` **experiment**<br />
-`dk add sb "C:\Program Files\Sublime Text 2\sublime_text.exe"` <br />
+`dk add ws "D:\JetBrains\WebStorm 2017.2.1\bin\webstorm64.exe $*"`<br />
+`dk add sb "C:\Program Files\Sublime Text 2\sublime_text.exe $*"` <br />
 
 常用场景，需要通过 `git clone` 某项目，
 ```shell
